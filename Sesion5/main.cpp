@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
 
-    Point punto1;
+    Point punto1(30,30);
 
     cout<<"Las coordenadas del punto 1 son X: "<<punto1.getX()<< " Y: "<<punto1.getY()<<endl;
 

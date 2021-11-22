@@ -15,11 +15,6 @@ class Point{
         void setY(double y);
         double calculateDistance(Point point2);
 };
-
-Point::Point(){
-    x=0;
-    y=0;
-}
 Point::Point(double x,double y){
     this->x=x;
     this->y=y;
