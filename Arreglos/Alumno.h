@@ -12,6 +12,7 @@ class Alumno{
 
     public:
         Alumno();
+        ~Alumno();
         Alumno(string nombre, string matricula);
         Alumno(string nombre, string matricula,int calificacion);
         void setNombre(string nombre);

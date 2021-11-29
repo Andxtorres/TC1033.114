@@ -24,3 +24,7 @@ double Salon::calculaPromedio(){
     }    
     return total/numAlumnos;
 }
+
+Salon::~Salon(){
+    
+}

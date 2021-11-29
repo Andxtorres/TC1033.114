@@ -35,3 +35,7 @@ int Alumno::getCalificacion(){
 void Alumno::imprimeAlumno(){
     cout<<"Alumno: "<< matricula<< " "<<nombre<<" calificacion: "<<calificacion<<endl;
 }
+
+Alumno::~Alumno(){
+    
+}

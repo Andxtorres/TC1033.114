@@ -9,6 +9,7 @@ class Salon{
 
     public: 
         Salon();
+        ~Salon();
         Salon(string clave);
         void agregarAlumno(Alumno alumno, int pos);
         void imprimeSalon();
