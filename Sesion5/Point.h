@@ -1,3 +1,6 @@
+#ifndef POINT_H_DEFINED
+#define POINT_H_DEFINED
+
 #include <iostream>
 #include "math.h"
 using namespace std;
@@ -15,6 +18,8 @@ class Point{
         void setY(double y);
         double calculateDistance(Point point2);
 };
+#endif
+
 Point::Point(double x,double y){
     this->x=x;
     this->y=y;

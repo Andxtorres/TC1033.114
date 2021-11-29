@@ -20,6 +20,7 @@ class Computadora{
 Computadora::Computadora(){
     marca="Sin Marca";
     pulgadas=0;
+    procesador=Procesador("Sin marca",0.0);
 }
 Computadora::Computadora(string marca, int pulgadas,Procesador procesador){
     this->marca=marca;
